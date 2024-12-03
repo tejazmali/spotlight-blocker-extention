@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Block Swiper Wrapper",
+    "version": "1.0",
+    "description": "Toggle the visibility of .swiper-wrapper elements on Snapchat Web.",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["https://web.snapchat.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  
