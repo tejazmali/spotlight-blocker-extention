@@ -15,7 +15,20 @@ A simple browser extension to block distracting spotlight overlays on websites, 
      - Click "Load unpacked" and select the extension folder.  
    - **Firefox**:  
      - Go to `about:debugging#/runtime/this-firefox`.  
-     - Click "Load Temporary Add-on" and select the manifest file in the folder.  
+     - Click "Load Temporary Add-on" and select the manifest file in the folder.
+     
+## Installation (Tampermonkey)
+### Tampermonkey Script  
+
+#### Install Tampermonkey  
+- **Chrome**: Install Tampermonkey from the [Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).  
+- **Firefox**: Install Tampermonkey from the [Firefox Add-ons site](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/).  
+
+#### Add the Script  
+1. Open Tampermonkey in your browser.  
+2. Click **Create a new script** from the dashboard.  
+3. Copy and paste the contents of `tampermonkey.js` from this repository into the editor.  
+4. Save the script and ensure it is active.
 
 ## Contributing  
 Contributions are welcome!  
