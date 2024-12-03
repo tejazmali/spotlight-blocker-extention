@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Hide or block elements with the class .swiper-wrapper
-// @author       Your Name
+// @author       Tejas Mali (tejazmali)
 // @match        https://web.snapchat.com/*
 // @grant        none
 // ==/UserScript==
